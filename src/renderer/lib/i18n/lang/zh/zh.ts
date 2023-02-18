@@ -275,6 +275,33 @@ const zh: {
 	syncModeLocalBackupInfo: "仅仅上传数据到云端，不会删除任何东西，云端变动不会影响本地",
 	// Only download data from the cloud, never delete anything or act on local changes
 	syncModeCloudBackupInfo: "仅仅下载数据到本地，不会删除任何东西，本地变动不会影响云端"
+	// Cancel
+	cancel: "取消",
+	// The remote path you have selected is already a configured sync location. This could lead to endless sync loops
+        cannotCreateSyncLocationLoop2: "您选择的远程路径是已配置过的同步位置。这可能会导致无休止的同步循环",
+	// Update available
+        titlebarUpdateAvailable: "更新可用",
+	// A new version has been downloaded and is ready to be installed. Please install it as soon as possible to benefit from bug fixes and new features.
+        updateWindowInfo: "一个新的版本已经下载并准备安装。请尽快安装，以受益于错误修复和新功能。",
+	// Install
+        updateWindowButton: "安装",
+	// The app will exit and start the update flow. Please do not interrupt this process.
+        updateWindowInfo2: "该应用程序将退出并开始更新流程。请不要打断这个过程。",
+        titlebarUpdateInstalled: "Update installed",
+	// Clear local event log
+        clearLocalEventLog: "清除本地事件日志",
+	// This will clear the local event log shown. Are you sure? This action cannot be undone!
+        clearLocalEventLogInfo: "这将清除本地事件日志。你确定吗？这个动作不能撤消!",
+	// Copied
+        copied: "复制",
+	//Public link copied to clipboard
+        publicLinkCopied: "公共链接被复制到剪贴板上",
+	// Clear local trash bins
+        clearLocalTrashDirs: "清理本地的垃圾桶",
+	// Clearing the local trash bins cannot be undone! Are you sure?
+        clearLocalTrashDirsInfo: "清理本地的垃圾桶不能取消！你确定吗？",
+	// The client will exit and start the update flow in the background. It will restart itself when it is done. Please do not interrupt this process.
+        updateWindowInfo3: "客户端将退出并在后台开始更新流程。完成后，它将重新启动自己。请不要打断这个过程。"
 }
 
 export default zh
